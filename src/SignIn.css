@@ -87,3 +87,152 @@ input[type="password"] {
 .button:active::before {
   scale: 0.7;
 }
+/* From Uiverse.io by Yaya12085 */
+.google {
+  max-width: 320px;
+  display: flex;
+  padding: 0.5rem 1.4rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  gap: 0.75rem;
+  color: rgb(65, 63, 63);
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.6s ease;
+}
+
+.google svg {
+  height: 24px;
+}
+
+.google:hover {
+  transform: scale(1.1);
+}
+/* From Uiverse.io by Yaya12085 */
+.facebook-button {
+  display: flex;
+  background-color: #039be5;
+  background-image: linear-gradient(to top right, #0163e0, #18acfe);
+  color: #ffffff;
+  padding: 0.5rem 1.4rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 0.5rem;
+  gap: 0.75rem;
+  border: none;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  transition: 0.6s ease;
+}
+
+.facebook-button svg {
+  height: 30px;
+}
+
+.facebook-button:hover {
+  transform: scale(1.1);
+}
+/*Ishan.js*/
+/* From Uiverse.io by SelfMadeSystem */
+.absolute {
+  position: absolute;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.loader {
+  display: flex;
+  margin: 0.25em 0;
+}
+
+.w-2 {
+  width: 0.5em;
+}
+
+.dash {
+  animation: dashArray 2s ease-in-out infinite, dashOffset 2s linear infinite;
+}
+
+.spin {
+  animation: spinDashArray 2s ease-in-out infinite, spin 8s ease-in-out infinite,
+    dashOffset 2s linear infinite;
+  transform-origin: center;
+}
+
+@keyframes dashArray {
+  0% {
+    stroke-dasharray: 0 1 359 0;
+  }
+
+  50% {
+    stroke-dasharray: 0 359 1 0;
+  }
+
+  100% {
+    stroke-dasharray: 359 1 0 0;
+  }
+}
+
+@keyframes spinDashArray {
+  0% {
+    stroke-dasharray: 270 90;
+  }
+
+  50% {
+    stroke-dasharray: 0 360;
+  }
+
+  100% {
+    stroke-dasharray: 270 90;
+  }
+}
+
+@keyframes dashOffset {
+  0% {
+    stroke-dashoffset: 365;
+  }
+
+  100% {
+    stroke-dashoffset: 5;
+  }
+}
+
+@keyframes spin {
+  0% {
+    rotate: 0deg;
+  }
+
+  12.5%,
+  25% {
+    rotate: 270deg;
+  }
+
+  37.5%,
+  50% {
+    rotate: 540deg;
+  }
+
+  62.5%,
+  75% {
+    rotate: 810deg;
+  }
+
+  87.5%,
+  100% {
+    rotate: 1080deg;
+  }
+}

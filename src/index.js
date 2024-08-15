@@ -1,8 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import SignIn from "./SignIn"; // Import the LoginPage component
-
-// Render the LoginPage component into the root element
+import SignIn from "./SignIn"; 
 ReactDOM.render(
   <React.StrictMode>
     <SignIn />
